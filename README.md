@@ -20,15 +20,21 @@ In the project directory, you can run:
 
 ### `Clone the repository`
 
+```bash
 git clone https://github.com/your-username/country-search-app.git
+```
 
 ### `Install dependencies:`
 
+```bash
 npm install
+```
 
 ### `Start the development server:`
 
+```bash
 npm start
+```
 
 ### `Open the app in your browser:`
 
