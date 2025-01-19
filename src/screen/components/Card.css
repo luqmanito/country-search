@@ -1,0 +1,40 @@
+.info-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  height: 100px;
+}
+
+.info-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.info-label {
+  font-size: 18px;
+  color: #000;
+  margin-right: 10px;
+}
+
+.info-value {
+  font-size: 18px;
+  font-weight: bold;
+}
+.latlong-label {
+  font-size: 18px;
+  color: #000;
+  margin-right: 10px;
+}
+
+.latlong-value {
+  font-size: 48px;
+  font-weight: bold;
+  color: #7f5af0;
+}

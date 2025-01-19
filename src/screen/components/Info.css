@@ -1,0 +1,66 @@
+.info-inline {
+  display: flex;
+  gap: 40px;
+  justify-content: flex-start;
+  margin: 20px 0;
+}
+
+.inline-item {
+  flex: 1;
+}
+
+.inline-label {
+  font-size: 18px;
+  color: #000; 
+  margin-bottom: 5px;
+}
+
+.inline-value {
+  font-size: 48px;
+  font-weight: bold;
+  color: #7f5af0;
+  margin: 5px 0;
+}
+
+.tooltip-container {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip {
+  display: none;
+  position: absolute;
+  top: 25px;
+  left: 0;
+  background-color: #4a4a4a;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  white-space: nowrap;
+}
+
+.tooltip p {
+  margin: 0;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.tooltip-container:hover .tooltip {
+  display: block;
+}
+
+.link {
+  color: #7f5af0;
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.inline-item p {
+  margin: 5px 0;
+  font-size: 16px;
+  color: #000;
+}
