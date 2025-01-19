@@ -21,7 +21,6 @@ In the project directory, you can run:
 ### `Clone the repository`
 
 git clone https://github.com/your-username/country-search-app.git
-cd country-search-app
 
 ### `Install dependencies:`
 
